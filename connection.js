@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
-const dbName = "previewGenerationTool";
-const dbUrl=`mongodb+srv://raunaksikka9:raunaksikka2001@cluster0.c66xr0g.mongodb.net/${dbName}?retryWrites=true&w=majority`;
+const db_name2 = "demoapp";
+const dbUrl=`mongodb+srv://Abhinav:8052339892@cluster0.9sram.mongodb.net/${db_name2}?retryWrites=true&w=majority`;
 // asynchrounous function
 
 mongoose.connect(dbUrl)
